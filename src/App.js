@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import './semantic/dist/semantic.min.css';
 
-import { Button, Menu, Dropdown } from 'semantic-ui-react';
+import { Button, Menu, Dropdown, ButtonContent } from 'semantic-ui-react';
 import { Router, Link } from 'react-router-dom';
 
 class App extends Component {
@@ -71,7 +71,20 @@ class App extends Component {
 
         <Button disabled>Botão Desabilitado Semantic UI Magalu</Button>
 
-        <a href="#">Link Semantic UI Magalu</a>
+        <div>
+          <hr />
+          <p>Basic Button</p>
+          <Button basic color="blue">Default basic button</Button>
+          <Button basic color="green">Persistence basic button</Button>
+          <Button basic color="red">Destroy basic button</Button>
+          <Button basic color="yellow">Warning basic button</Button>
+          <Button basic disabled>Disabled basic button</Button>
+        </div>
+
+        <div>
+          <a href="#">Link Semantic UI Magalu</a>
+        </div>
+
 
 
       </div>
